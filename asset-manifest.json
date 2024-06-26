@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio-dark-version/static/css/main.d7c9ec97.css",
-    "main.js": "/portfolio-dark-version/static/js/main.cdbdc1ac.js",
-    "static/media/movie.png": "/portfolio-dark-version/static/media/movie.92e1497e15d3a9c39543.png",
-    "static/media/marvel.png": "/portfolio-dark-version/static/media/marvel.31b9464fdc26894b5ab0.png",
+    "main.css": "/portfolio-dark-version/static/css/main.818d5112.css",
+    "main.js": "/portfolio-dark-version/static/js/main.cb440ac4.js",
+    "static/media/movies.png": "/portfolio-dark-version/static/media/movies.573916a18553eab8dd6c.png",
+    "static/media/marvel.png": "/portfolio-dark-version/static/media/marvel.3814a7c51ec6f64f787b.png",
     "static/media/profile.jpg": "/portfolio-dark-version/static/media/profile.a18baf1c7d567fa0c84d.jpg",
     "static/media/about.jpg": "/portfolio-dark-version/static/media/about.2de0c5c04e9c5ea81d69.jpg",
+    "static/media/soon.jpg": "/portfolio-dark-version/static/media/soon.a9eba8d8664c29d60e36.jpg",
     "static/media/react.svg": "/portfolio-dark-version/static/media/react.a0265b6e1e20402f0a63c16d9d5c692a.svg",
     "static/media/redux.svg": "/portfolio-dark-version/static/media/redux.dfcb30f34a68977fd03284d005a7d5a0.svg",
     "static/media/js.svg": "/portfolio-dark-version/static/media/js.d293871fa9c42620bfca4879e4a9d4bd.svg",
@@ -14,11 +15,11 @@
     "static/media/css.svg": "/portfolio-dark-version/static/media/css.1eb725fed80e6cd17129386644d5ddab.svg",
     "static/media/html.svg": "/portfolio-dark-version/static/media/html.0dc5a4006e7f3710611d893a3201278a.svg",
     "index.html": "/portfolio-dark-version/index.html",
-    "main.d7c9ec97.css.map": "/portfolio-dark-version/static/css/main.d7c9ec97.css.map",
-    "main.cdbdc1ac.js.map": "/portfolio-dark-version/static/js/main.cdbdc1ac.js.map"
+    "main.818d5112.css.map": "/portfolio-dark-version/static/css/main.818d5112.css.map",
+    "main.cb440ac4.js.map": "/portfolio-dark-version/static/js/main.cb440ac4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7c9ec97.css",
-    "static/js/main.cdbdc1ac.js"
+    "static/css/main.818d5112.css",
+    "static/js/main.cb440ac4.js"
   ]
 }
