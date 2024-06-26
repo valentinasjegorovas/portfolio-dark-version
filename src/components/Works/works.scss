@@ -1,0 +1,50 @@
+@import '../../scss/breakpoint';
+@import '../../scss/variables';
+
+.works {
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    @include tablet {
+      font-size: 2.5rem;
+    }
+  }
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+    @include tablet {
+      gap: 1rem;
+    }
+    @include mobile {
+      gap: 1rem;
+    }
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include mobile {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &__img {
+      scroll-snap-align: start;
+      position: relative;
+      scroll-snap-align: start;
+      z-index: 0;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 1rem;
+      transition: all 0.5s ease;
+      cursor: pointer;
+      @media (hover: hover) {
+        &:hover {
+          transform: scale(110%);
+          border: 4px solid #d76d77;
+        }
+      }
+    }
+  }
+}

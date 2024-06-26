@@ -1,0 +1,11 @@
+@import '../../scss/breakpoint';
+@import '../../scss/variables';
+
+.container {
+  max-width: 1200px;
+  padding: 0 1rem 2rem 1rem;
+  margin: 0 auto;
+  @include mobile {
+    padding: 0 1rem 1rem 1rem;
+  }
+}

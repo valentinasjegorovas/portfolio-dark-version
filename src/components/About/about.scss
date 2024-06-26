@@ -1,0 +1,95 @@
+@import '../../scss/breakpoint';
+@import '../../scss/variables';
+
+.about {
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    @include tablet {
+      font-size: 2.5rem;
+    }
+  }
+  h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    background: $main-color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+
+    @include tablet {
+      font-size: 1.5rem;
+    }
+  }
+
+  p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    @include mobile {
+      flex-direction: column;
+    }
+    &__image {
+      max-width: 300px;
+      border-radius: 1rem;
+      @include tablet {
+        display: none;
+      }
+    }
+    &__description {
+      /* max-width: 836px; */
+      overflow: hidden;
+      @include mobile {
+        width: 100%;
+      }
+    }
+    &__skills {
+      width: 100%;
+      margin-top: 1rem;
+      &__icons {
+        width: 120px;
+        @include tablet {
+          width: 100px;
+        }
+        @include mobile {
+          width: 80px;
+        }
+      }
+      .swiper-container {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+        width: 100%;
+        .swiper-wrapper {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          transition-property: transform;
+          box-sizing: content-box;
+          .swiper-slide {
+            flex-shrink: 0;
+            width: 120px;
+            position: relative;
+            transition-property: transform;
+            @include tablet {
+              width: 100px;
+            }
+            @include mobile {
+              width: 80px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

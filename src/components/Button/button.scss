@@ -1,0 +1,25 @@
+@import '../../scss/breakpoint';
+@import '../../scss/variables';
+
+.btn {
+  position: relative;
+  margin-top: 1rem;
+  position: relative;
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  background: $main-color;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  color: $white;
+  border-radius: 1.5rem;
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.outline-btn {
+  background: transparent;
+  border: 1px solid $white;
+}
