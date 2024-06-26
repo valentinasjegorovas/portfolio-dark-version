@@ -2,6 +2,10 @@
 @import '../../scss/variables';
 
 .works {
+  margin-top: 3rem;
+  @include mobile {
+    margin-top: 1rem;
+  }
   h1 {
     text-align: center;
     font-size: 3rem;
@@ -29,9 +33,7 @@
       grid-template-columns: repeat(1, 1fr);
     }
     &__img {
-      scroll-snap-align: start;
       position: relative;
-      scroll-snap-align: start;
       z-index: 0;
       width: 100%;
       height: auto;
@@ -39,10 +41,9 @@
       border-radius: 1rem;
       transition: all 0.5s ease;
       cursor: pointer;
-      @media (hover: hover) {
+      @media (hover: hover) and (pointer: fine) {
         &:hover {
           transform: scale(110%);
-          border: 4px solid #d76d77;
         }
       }
     }

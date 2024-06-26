@@ -11,31 +11,31 @@ const MyWorks = [
 
   {
     title: 'Movies App',
-    image: require('../../assets/movie.png'),
+    image: require('../../assets/movies.png'),
     link: 'https://valentinasjegorovas.github.io/movies-app/',
   },
 
   {
+    title: 'TMDB App',
+    image: require('../../assets/tmdb.png'),
+    link: 'https://valentinasjegorovas.github.io/tmdb-app/',
+  },
+
+  {
     title: 'Coming Soon',
-    image: require('../../assets/dummy-pic.png'),
+    image: require('../../assets/soon.jpg'),
     link: '#',
   },
 
   {
     title: 'Coming Soon',
-    image: require('../../assets/dummy-pic.png'),
+    image: require('../../assets/soon.jpg'),
     link: '#',
   },
 
   {
     title: 'Coming Soon',
-    image: require('../../assets/dummy-pic.png'),
-    link: '#',
-  },
-
-  {
-    title: 'Coming Soon',
-    image: require('../../assets/dummy-pic.png'),
+    image: require('../../assets/soon.jpg'),
     link: '#',
   },
 ];
