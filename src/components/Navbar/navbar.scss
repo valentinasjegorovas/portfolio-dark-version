@@ -102,6 +102,8 @@ li {
   position: relative;
   transition: transform 0.5s ease;
   cursor: pointer;
+  will-change: transform;
+  height: 2rem;
 
   @media (hover: hover) {
     &:hover {
@@ -121,6 +123,6 @@ li {
     height: 3px;
     background: $main-color;
     transition: width 0.3s ease;
-    bottom: -10px;
+    bottom: 3px;
   }
 }
