@@ -4,6 +4,12 @@ import './works.scss';
 
 const MyWorks = [
   {
+    title: 'TMDB App',
+    image: require('../../assets/tmdb.png'),
+    link: 'https://valentinasjegorovas.github.io/tmdb-app/',
+  },
+
+  {
     title: 'Marvel App',
     image: require('../../assets/marvel.png'),
     link: 'https://valentinasjegorovas.github.io/marvel-app/',
@@ -13,12 +19,6 @@ const MyWorks = [
     title: 'Movies App',
     image: require('../../assets/movies.png'),
     link: 'https://valentinasjegorovas.github.io/movies-app/',
-  },
-
-  {
-    title: 'TMDB App',
-    image: require('../../assets/tmdb.png'),
-    link: 'https://valentinasjegorovas.github.io/tmdb-app/',
   },
 
   {
