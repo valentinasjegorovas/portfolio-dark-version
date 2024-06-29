@@ -27,6 +27,11 @@
       font-size: 1.5rem;
     }
   }
+  h2 {
+    @include mobile {
+      text-align: center;
+    }
+  }
   h3 {
     margin: 0;
     text-align: left;
