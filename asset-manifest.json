@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-dark-version/static/css/main.c66a9eb8.css",
-    "main.js": "/portfolio-dark-version/static/js/main.e2816190.js",
-    "static/media/tmdb.png": "/portfolio-dark-version/static/media/tmdb.f531b20dcf6f0cdce95c.png",
+    "main.js": "/portfolio-dark-version/static/js/main.eb39d458.js",
+    "static/media/tmdb.png": "/portfolio-dark-version/static/media/tmdb.5e332b108c279eb4c072.png",
     "static/media/movies.png": "/portfolio-dark-version/static/media/movies.573916a18553eab8dd6c.png",
     "static/media/marvel.png": "/portfolio-dark-version/static/media/marvel.3814a7c51ec6f64f787b.png",
     "static/media/profile.jpg": "/portfolio-dark-version/static/media/profile.a18baf1c7d567fa0c84d.jpg",
@@ -17,10 +17,10 @@
     "static/media/html.svg": "/portfolio-dark-version/static/media/html.0dc5a4006e7f3710611d893a3201278a.svg",
     "index.html": "/portfolio-dark-version/index.html",
     "main.c66a9eb8.css.map": "/portfolio-dark-version/static/css/main.c66a9eb8.css.map",
-    "main.e2816190.js.map": "/portfolio-dark-version/static/js/main.e2816190.js.map"
+    "main.eb39d458.js.map": "/portfolio-dark-version/static/js/main.eb39d458.js.map"
   },
   "entrypoints": [
     "static/css/main.c66a9eb8.css",
-    "static/js/main.e2816190.js"
+    "static/js/main.eb39d458.js"
   ]
 }
