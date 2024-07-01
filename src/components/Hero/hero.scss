@@ -10,6 +10,11 @@
     display: flex;
     gap: 2rem;
     align-items: center;
+    &__btns {
+      @include mobile {
+        text-align: center;
+      }
+    }
 
     @include mobile {
       flex-direction: column;
