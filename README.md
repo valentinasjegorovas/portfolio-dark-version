@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Portfolio - Dark Version
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio website. It showcases my skills, projects, and provides a way to contact me. The portfolio includes a hero section, an about section, a section for my works, and a contact section with a form.
 
-## Available Scripts
+## Table of Contents
+- [Sections](#sections)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## Sections
 
-### `npm start`
+- **Hero**: The landing section with an introduction and animations.
+- **About**: A section with information about me and my skills.
+- **My Works**: A showcase of my projects and work samples.
+- **Contacts**: A section with a contact form to leave a message.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Hero Section
+![Hero Section](https://imgur.com/kG0YpUE.png)
 
-### `npm test`
+### About Section
+![About Section](https://imgur.com/gZ30V7h.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### My Works Section
+![My Works Section](https://imgur.com/PlQbcgd.png)
 
-### `npm run build`
+### Contact Section
+![Contact Section](https://imgur.com/bSy9QwO.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started with the project, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/valentinasjegorovas/portfolio-dark-version.git
 
-### `npm run eject`
+2. **Navigate into the project directory**:
+   ```sh
+   cd portfolio-dark-version
+   
+3. **Install NPM packages**:
+   ```sh
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   **To start the project**:
+   ```sh
+   npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project utilizes the following technologies and libraries:
 
-## Learn More
+- **React**: A JavaScript library for building user interfaces.
+- **Framer Motion**: Used for animations in the hero section.
+- **Swiper**: Used for creating sliders in the about section.
+- **Formik**: Used for building form in the contacts section.
+- **Yup**: Used for form validation in the contacts section.
+- **PropTypes**: Used for prop validation in React components.
+- **SCSS**: Used for styling the components.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For any questions or feedback, you can reach out to me:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **LinkedIn**: [Valentinas Jegorovas](https://www.linkedin.com/in/valentinas-jegorovas-7a0295204/)
